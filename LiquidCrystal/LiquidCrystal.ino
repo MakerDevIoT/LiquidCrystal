@@ -1,6 +1,7 @@
 #include <LiquidCrystal.h>  //ประกาศLibrary
 // initialize the library with the numbers of the interface pins
-LiquidCrystal lcd(12, 11, 4, 5, 6, 7);  //ฟังก์ชั่นแรกกำหนดPins ที่ใช้ในการเชื่อมต่อ
+//LiquidCrystal lcd(12, 11, 4, 5, 6, 7);  //ฟังก์ชั่นแรกกำหนดPins ที่ใช้ในการเชื่อมต่อ
+LiquidCrystal lcd(4, 5, 2, 14, 12, 13);
 void setup()
 {
 // set up the LCD's number of columns and rows:
